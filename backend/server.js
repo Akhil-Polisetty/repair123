@@ -10,10 +10,12 @@ import RepairModel from "./model/RepairModel.js";
 // import ResponseModel from "./model/ResponsesModel.js";
 import ResponsesModel from "./model/ResponsesModel.js";
 import ActiveRepairModel from "./model/ActiveRepairModel.js";
+import dotenv from 'dotenv';
+
 
 let email_glob;
 
-
+dotenv.config()
 const app = express();
 app.use(
   cors({
@@ -46,7 +48,7 @@ app.use(cookieParser())
 // };
 
 
-mongoose.connect("mongodb+srv://Akhil_Polisetty:Itd7ezvu6LSm55U1@cluster0.yikmr2e.mongodb.net/RepairEase?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
