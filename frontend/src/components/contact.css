@@ -1,0 +1,107 @@
+*{
+    /* overflow: auto; */
+    padding: 0;
+    margin: 0;
+}
+.bodyover{
+    overflow: scroll;
+}
+.body{
+    background-color: #f9f9f7;
+    /* background-image: none; */
+}
+.part1{
+    /* background-image: url('repair1.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("repair1.jpg");
+    /* background-size:cover; */
+    /* opacity: 0.5; */
+    width: 100vw;
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.part1text{
+    color:white;
+    font-size: 50px;
+    padding:150px;
+    text-align: center;
+    position:absolute;
+}
+.part2{
+    top:-90px;
+    margin:auto;
+    position:relative;
+    width:80vw;
+    display:flex;
+    background-color:#f9f9f7;
+    height:80vh;
+}
+.side1{
+    background-color: #fff;
+    width:60%;
+    height:75vh;
+    color:black;
+    margin: auto;
+}
+.side1box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side2{
+    background-color: #f9f9f7;
+    width:30%;
+    height:60vh;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.heading{
+    text-align: center;
+}
+.textbox1{
+    display:flex;
+    /* justify-content: center; */
+    gap:20px;
+}
+.inputbox{
+    width:250px;
+}
+.inputbox2{
+    width:520px;
+}
+.submitbtncls{
+    text-align: center;
+}
+.submitbtn{
+    width:100px;
+    height:30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box{
+    height:30vh;
+    width:100%;
+    background-color: #fff;
+    border-radius: 10px;
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    cursor: pointer;
+}
+.logo{
+    color:red;
+    text-align: center;
+}
+.inpt{
+    background-color: #f9f8f7;
+}

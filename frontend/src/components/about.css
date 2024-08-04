@@ -1,0 +1,45 @@
+/* body{
+    overflow: auto;
+} */
+/* body
+{
+  background-image: none;
+} */
+.bodyclass{
+    background-image: url('about.jpg');
+    /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("bigimg.jpg"); */
+    height:50vh;
+    background-size: cover;
+    /* background-position: 0px -90px; */
+    /* background-repeat: no-repeat;   */
+    width:100vw;
+    color:white;
+  }
+  .missionmain{
+    background-color: rgb(255, 255, 255);
+    height:45vh;
+    width: 35vw;
+    text-align: center;
+    
+    padding:20px;
+  }
+  .mission{
+    height:60vh;
+    width:70vw;
+    margin: auto;
+    display:flex;
+    gap:70px;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #dbe5ee;
+    background-color: white;
+    
+  }
+  .missionimage{
+    height:45vh;
+    /* height: 400px; */
+    width:20vw;
+  }
+  body{
+    background-color: #dbe5ee;
+  }

@@ -1,0 +1,23 @@
+.pred_head
+{
+    width: 100w;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pred_cont
+{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #413262;
+}
+.sub_btn
+{
+    width: 100px;
+    height:20px;
+}

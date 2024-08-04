@@ -1,0 +1,14 @@
+GET http://localhost:2999/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZWxpamFoIiwiaWF0IjoxNzA4NDUzOTE4fQ.GJqVwfOa6HOr2QR5JZTbmn2H2dPoSFtew0pKACOxPh4
+
+###
+POST http://localhost:2999/login
+Content-Type: application/json
+
+{
+    "username":"elijah"
+}
+
+
+###
+POST http://localhost:3131/register
